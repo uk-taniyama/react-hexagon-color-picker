@@ -4,13 +4,13 @@ import { hsl_to_hex } from "../utils/functions";
 interface HexagonalColorHueState {
     hue: number;
     border: string | null;
-    highlight: any;
+    highlight: string | null;
 }
 
 export interface HexagonalColorHueProps {
     hue?: number;
-    border?: any;
-    highlight?: any;
+    border?: string;
+    highlight?: string;
     onHueChange?(hue: number): void;
 }
 
