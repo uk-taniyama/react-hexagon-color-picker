@@ -102,5 +102,8 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     "outDir": "dist/types"
-  }
+  },
+  "exclude": [
+    "**/*.stories.tsx"
+  ]
 }
